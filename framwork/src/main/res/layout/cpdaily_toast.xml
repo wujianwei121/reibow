@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cpdaily_toast"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cpdaily_toast_style_info"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/space_5"
+    android:paddingLeft="@dimen/space_10"
+    android:paddingRight="@dimen/space_10"
+    android:paddingTop="@dimen/space_5">
+
+    <ImageView
+        android:id="@+id/cpdaily_toast_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/space_5"
+        android:src="@drawable/warn" />
+
+    <TextView
+        android:id="@+id/cpdaily_toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_13"
+        tools:text="提示消息" />
+</LinearLayout>

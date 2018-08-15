@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.flyco.banner:FlycoBanner_Lib-2.0.2">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FlycoBanner_Lib-2.0.2.aar/e30389f05e6b93fc0a6cf1c408f2411e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/FlycoBanner_Lib-2.0.2.aar/e30389f05e6b93fc0a6cf1c408f2411e/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.flyco.banner/FlycoBanner_Lib/2.0.2/8670dd62c60574d49af2fdf2281e8070d792edbc/FlycoBanner_Lib-2.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

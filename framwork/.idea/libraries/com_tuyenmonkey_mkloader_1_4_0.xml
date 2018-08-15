@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.tuyenmonkey:mkloader-1.4.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mkloader-1.4.0.aar/1dfc55cf9de3a97e3c2aa2666a6da876/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mkloader-1.4.0.aar/1dfc55cf9de3a97e3c2aa2666a6da876/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.tuyenmonkey/mkloader/1.4.0/e684f20417fc89794267a2a73c497b05d3b00a75/mkloader-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

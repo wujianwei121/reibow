@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_whit_circular_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/dialog_alert"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_50"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/dialog_alert_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="提示"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_top_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/space_10"
+            android:background="@drawable/delete"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/dialog_scroll__content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="100dip"
+        android:padding="@dimen/font_size_16">
+
+        <LinearLayout
+            android:id="@+id/dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dialog_alert_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/font_size_16" />
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:id="@+id/split_line_second"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/bg_e1" />
+
+    <LinearLayout
+        android:id="@+id/alert_dialog_btns"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_50"
+        android:background="@color/transparent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_alert_dialog_cancel"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/font_size_16" />
+
+        <View
+            android:id="@+id/btn_split_line"
+            android:layout_width="0.5dip"
+            android:layout_height="match_parent"
+            android:background="@color/bg_e1" />
+
+        <Button
+            android:id="@+id/btn_alert_dialog_confirm"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/red"
+            android:textSize="@dimen/font_size_16" />
+
+    </LinearLayout>
+
+</LinearLayout>
