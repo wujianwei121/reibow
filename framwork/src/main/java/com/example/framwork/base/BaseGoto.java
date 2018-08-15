@@ -1,4 +1,4 @@
-package com.example.framwork.utils;
+package com.example.framwork.base;
 
 import android.app.Activity;
 import android.content.Context;
@@ -53,6 +53,22 @@ public class BaseGoto {
     public static void toQRCode(Context context, int bgId) {
         Intent intent = new Intent(context, CaptureActivity.class);
         intent.putExtra("title_bg", bgId);
+        context.startActivity(intent);
+    }
+
+    /**
+     * 图片预览
+     *
+     * @param context
+     * @param list
+     * @param position
+     */
+    public static void toImagePreviewActivity(Context context, List<ImageInfo> list, int position) {
+        Intent intent = new Intent(context, ImagePreviewActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable(ImagePreviewActivity.IMAGE_INFO, (Serializable) list);
+        bundle.putInt(ImagePreviewActivity.CURRENT_ITEM, position);
+        intent.putExtras(bundle);
         context.startActivity(intent);
     }
 }
